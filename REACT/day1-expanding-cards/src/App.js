@@ -1,12 +1,14 @@
 import './App.css'
 import { createGlobalStyle } from 'styled-components'
 import { Title } from './components/title'
+import { Cards } from './components/cards'
 
 function App() {
   return (
     <>
       <GlobalStyle />
       <Title>Expanding Cards</Title>
+      <Cards></Cards>
     </>
   )
 }
