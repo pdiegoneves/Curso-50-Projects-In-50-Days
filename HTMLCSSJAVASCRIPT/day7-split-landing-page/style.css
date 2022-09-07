@@ -7,7 +7,7 @@
   --right-btn-hover-color: rgba(28, 122, 28, 1);
   --hover-width: 75vw;
   --other-width: 25vw;
-  --spedd: 1s
+  --spedd: 1s;
 }
 
 * {
@@ -121,17 +121,16 @@ h1 {
   width: var(--other-width);
 }
 
-@media(max-width: 800px) {
-    h1{
-        font-size: 2rem;
-    }
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+  }
 
-    .btn {
-        padding: 1.2rem;
-        width: 12rem;
-    }
+  .btn {
+    padding: 1.2rem;
+    width: 12rem;
+  }
 }
-
 
 /*
 
@@ -152,5 +151,3 @@ Minha solução apenas com CSS -> tem uma falha no ajuste da margem esquerda qua
   width: var(--other-width);
 }
 */
-
-
